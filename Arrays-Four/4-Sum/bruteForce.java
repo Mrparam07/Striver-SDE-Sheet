@@ -1,6 +1,8 @@
 class Solution {
     public List<List<Integer>> fourSum(int[] nums, int target) {
        int n = nums.length; // size of the array
+
+        //Set is used to remove duplicates elements in the list
         Set<List<Integer>> set = new HashSet<>();
 
         // checking all possible quadruplets:
