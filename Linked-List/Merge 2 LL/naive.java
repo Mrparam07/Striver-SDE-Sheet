@@ -1,3 +1,5 @@
+/**              TC:: O(n)   SC:: O(1)
+//The space complexity of this code is constant because it uses only a fixed amount of additional memory
 /**
  * Definition for singly-linked list.
  * public class ListNode {
