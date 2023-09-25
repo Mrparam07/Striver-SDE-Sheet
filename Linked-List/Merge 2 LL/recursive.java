@@ -1,4 +1,8 @@
 //Two ways Comment also run but take more memory
+/*Time Complexity: O(n)
+Space Complexity: O(n)
+The space complexity is determined by the maximum depth of the recursive call stack. In the worst case, when list1 and list2 are both non-empty and have similar lengths, the code will make recursive calls for each node until it reaches the end of one of the lists. This means the maximum recursion depth is proportional to the number of nodes in the longer of the two lists. Therefore, the space complexity is O(n), where n is the number of nodes in the longer list.
+*/
 
 class Solution {
     public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
