@@ -1,4 +1,4 @@
-// TC::O(m+n) SC::O(1)
+// TC::O(m+n) SC::O(n)
 /**
  * Definition for singly-linked list.
  * public class ListNode {
