@@ -3,7 +3,7 @@ public class Solution {
         if(head == null || head.next == null)
             return false;
         ListNode slow = head; 
-        ListNode fast = head;
+        ListNode fast = head; 
 
         while(fast.next != null && fast.next.next != null){
 
