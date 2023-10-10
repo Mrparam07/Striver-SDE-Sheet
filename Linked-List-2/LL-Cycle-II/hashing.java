@@ -2,7 +2,7 @@
  TC :: O(n) SC :: O(n)
  */
 public class Solution {
-    public ListNode detectCycle(ListNode head) {
+    public ListNode detectCycle(ListNode head) { 
         if(head == null || head.next == null)
         return null;
         HashMap<ListNode, Integer> map = new HashMap();
